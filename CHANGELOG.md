@@ -2,8 +2,8 @@
 
 All notable changes to the "granify-utilities" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+Check [Keep a Changelog](https://www.youtube.com/watch?v=dQw4w9WgXcQ) for recommendations on how to structure this file.
 
-## [Unreleased]
+## 0.0.1
 
-- Initial release
+- whats a changelog
