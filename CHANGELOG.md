@@ -6,4 +6,4 @@ Check [Keep a Changelog](https://www.youtube.com/watch?v=dQw4w9WgXcQ) for recomm
 
 ## 0.0.1
 
-- whats a changelog
+- this is a thing now

@@ -20,23 +20,15 @@ a bunch of highly specific and niche utilities that probably wont benefit the av
 
 ## Requirements
 
-:)
+no requirements
 
 ## Extension Settings
 
-imagine having settings
+no settings
 
 ## Known Issues
 
-only features here!
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 0.0.1
-
-i guess this is a thing now
+no issues, only features
 
 ## final notes
 
