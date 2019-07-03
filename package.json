@@ -3,12 +3,18 @@
 	"displayName": "granify_utilities",
 	"description": "utilities for granify",
 	"version": "0.0.1",
+	"author": "stupid cat (cat@blargbot.xyz)",
+	"publisher": "ratismal",
 	"engines": {
-		"vscode": "^1.35.0"
+		"vscode": "^1.30.0"
 	},
 	"categories": [
 		"Other"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Ratismal/granify_utilities"
+	},
 	"activationEvents": [
 		"onCommand:granifyUtils.copyFilenameNoExt",
 		"onCommand:granifyUtils.copyFilename",
@@ -78,6 +84,7 @@
 		"test": "yarn run compile && node ./node_modules/vscode/bin/test"
 	},
 	"devDependencies": {
+		"@types/fs-extra": "^8.0.0",
 		"@types/mocha": "^2.2.42",
 		"@types/node": "^10.12.21",
 		"tslint": "^5.12.1",
@@ -85,7 +92,6 @@
 		"vscode": "^1.1.28"
 	},
 	"dependencies": {
-		"@types/fs-extra": "^8.0.0",
 		"fs-extra": "^8.1.0"
 	}
 }
