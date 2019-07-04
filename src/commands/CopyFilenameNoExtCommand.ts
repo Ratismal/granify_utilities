@@ -11,8 +11,8 @@ export default class CopyFilenameNoExtCommand extends BaseCommand {
       const parts = name.split('.');
       const noExt = parts[0];
 
-      this.vscode.env.clipboard.writeText(name);
-      this.vscode.window.setStatusBarMessage(`Copied '${name}' to the clipboard.`);
+      this.vscode.env.clipboard.writeText(noExt);
+      this.vscode.window.setStatusBarMessage(`Copied '${noExt}' to the clipboard.`);
     } catch (err) {
       this.error(err);
     }

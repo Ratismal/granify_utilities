@@ -2,7 +2,7 @@
 	"name": "granify-utilities",
 	"displayName": "granify_utilities",
 	"description": "utilities for granify",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": "stupid cat (cat@blargbot.xyz)",
 	"publisher": "ratismal",
 	"engines": {
