@@ -47,7 +47,7 @@ export default class CreateWidgetCommand extends BaseCommand {
         let parts = file.split('.');
         let fname = input;
         if (parts.length > 1) fname += '.' + parts.slice(1).join('.');
-        if (file.toLowerCase() === 'configuration.json') fname = file;
+        if (['configuration.json', 'i18n.yml'].includes(file.toLowerCase())) fname = file;
         newFiles.push(fname);
         const content = await fs.readFile(path.join(op, file), { encoding: 'utf8' });
         await fs.writeFile(path.join(p, fname), content.replace(regex, newClass));
